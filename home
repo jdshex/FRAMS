@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HomePage</title>
+    <style>
+      img {
+        width: 100px;
+        border-radius: 10px;
+        float: left;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="/WEHomepage/CrapsGame.html">Click Here to Play the Craps Game</a>
+    </p>
+    <img
+      src="https://scontent.fisb4-2.fna.fbcdn.net/v/t39.30808-6/256532731_1509280216093760_5180569196667061745_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF19myyaGhKhvY1YewZIX11W2I9HREVx_FbYj0dERXH8V-NJhQXznW9ZjLaYoBVzSPyDPGFp2-3xfD0Tf2JHTyR&_nc_ohc=j3NTzkxN0JoAX-Uv8Oz&_nc_zt=23&_nc_ht=scontent.fisb4-2.fna&oh=00_AT_qDOrHzgvCANyOygz8Xx9FF6UV6kViHwV9Y8sHPQ8awA&oe=621FE1A8"
+      alt="An image of Rehan Ahmed"
+    />
+    <br>
+    <h3>Name</h3>
+    <p>Sheikh Muhammad Jawad</p>
+    <h3>Reg No.</h3>
+    <p>3965-FBAS/BSCS4/F18</p>
+    <br>
+    <h2>Proposal</h2>
+    <h3>Face Recognition Attendance Management System</h3>
+    <h3>Members</h3>
+    <p>1. Raja Rehan Ahmed</p>
+    <p>2. Sheikh Muhammad Jawad</p>
+    <h3>Introduction</h3>
+    <p>
+      Face Recognition Attendance Management System is an automated attendance
+      system which takes attendance by recognizing the faces of students in a
+      class and helps to avoid proxies in attendance. The system also provides
+      the facility to store the attendance, manage attendance etc.
+    </p>
+    <h3>Objectives</h3>
+    <p>
+      To design an automated attendance management system which avoids proxies
+      and makes it easier for the teacher to take the attendance and also to
+      maintain/manage the attendances of different classes.
+    </p>
+    <h3>Problem Description</h3>
+    <p>
+      Taking attendance manually specially in a class where students are in
+      large number is a tedious task which consumes a lot of time of the class
+      and diverts the attention of the class as well as the teacher. Some
+      students don’t even take classes and their friends / other students mark
+      their attendance as a proxy. Storing, maintaining and managing attendances
+      of different classes manually is also a headache for the CR, Teacher and
+      management. By moving to automated attendance system, 75% attendance
+      policy can easily be implemented as the attendance of a student will only
+      be marked if he/she comes to the class physically. In this way students
+      will be more punctual and regular towards their classes.
+    </p>
+    <h3>Methodology</h3>
+    <p>
+      The system will provide the facility of creating users, user’s log in and
+      log out. The abstract users will be Admin (Most likely the program office
+      of a department), other users are the teachers who will take attendance of
+      the classes through face recognition. Both the admin and normal users
+      (teachers) will be given username (University Email Address) and password
+      of their choice. Admin will be provided with the functionality of adding
+      teachers as users, adding students. When the admin will add a student,
+      he/she will add the data about student e.g., Roll No., Name, Father Name,
+      Batch, email etc. and one more thing will be the dataset for the
+      particular student which will be used to train the face recognition model.
+      The system will take some sample photos through the camera feed of the
+      admin system which will be stored as the dataset of the student. The
+      system then trains itself with the dataset of the students after that the
+      system can recognize that student when a teacher takes attendance through
+      face recognition. The system will also provide the facility to take the
+      attendance manually if somehow the face recognition functionality is not
+      working or the camera is malfunctioning. If during face recognition some
+      students are not recognized then the system alerts the teacher with the
+      photos of that students and gives the attendance sheet of the recognized
+      students to make any changes to the attendance if necessary. OpenCV-
+      python library will be used for face recognition in the project.
+    </p>
+    <h3>Project Scope</h3>
+    <p>
+      This project will be a web-based project. Different users can use it on
+      their own devices. The data will be stored at a centralized database e.g.,
+      user’s data, students’ data, students’ datasets, model trainer data,
+      attendance records etc.
+    </p>
+    <h3>Brief Feasibility Study</h3>
+    <p>
+      The system being developed is efficient and highly reliable with respect
+      to student attendance. It is effective in the sense that it has eliminated
+      the attendance work completely. The system is also time effective because
+      the attendance is automated. 1.Risks Involved: • Face recognition
+      technology not working properly • Any accident happens with a project
+      member. 2.Resource Requirement: • A fast, modern and reliable laptop with
+      a reliable and fast internet connection. • A good quality camera for face
+      recognition
+    </p>
+    <h3>Solution Application Areas</h3>
+    <p>
+      The project is of great value for the Schools, Academies, Madaris,
+      Universities etc. These institutions can automate their manual attendance
+      system to this modern and automated system and reduce the work load for
+      the management and the teachers.
+    </p>
+    <h3>Tools/Technology</h3>
+    <p>
+      1.Software • Python (Django) • PyCharm • MySQL • HTML/CSS • Visual Studio
+      Code 2.Hardware • Laptop • Camera
+    </p>
+    <h3>Expertise of the Team Members</h3>
+    <p>
+      The project is of equal interest to both team members. Both team members
+      are pre-equipped with the level of knowledge needed for the successful
+      completion of this project and have studied the relevant courses as well.
+    </p>
+    <h3>Milestones</h3>
+    <p>1.Planning 2.Research 3.Designing 4.Implementation 5.Testing</p>
+    <h3>References</h3>
+    <p>
+      Internet Web Page: Adrian Rosebrock. “Face recognition with OpenCV,
+      Python, and deep learning” June 18, 2018.
+
+      <a
+        href="https://www.pyimagesearch.com/2018/06/18/face-recognition-with-
+        opencv-python-and-deep-learning/"
+        >https://www.pyimagesearch.com/2018/06/18/face-recognition-with-
+        opencv-python-and-deep-learning/[1]</a
+      >
+
+      • Internet Web Page: Parul Pandey. “Face Detection with Python Using
+      OpenCV” December 20, 2018.
+
+      <a
+        href="https://www.datacamp.com/community/tutorials/face-detection-python-
+        opencv"
+        >https://www.datacamp.com/community/tutorials/face-detection-python-
+        opencv [2]</a
+      >
+    </p>
+  </body>
+</html>
